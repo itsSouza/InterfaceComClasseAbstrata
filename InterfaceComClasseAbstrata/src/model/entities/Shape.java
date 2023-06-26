@@ -1,31 +1,7 @@
 package model.entities;
 
-public abstract class Shape {
+public interface Shape {
 	
-	private String color;
-	
-	
-public Shape() {
-}
+	 double area();
 
-
-public Shape(String color) {
-	this.color = color;
-}
-
-
-public String getColor() {
-	return color;
-}
-
-
-public void setColor(String color) {
-	this.color = color;
-}
-
-public abstract double area();
-	
-
-
-	
 }

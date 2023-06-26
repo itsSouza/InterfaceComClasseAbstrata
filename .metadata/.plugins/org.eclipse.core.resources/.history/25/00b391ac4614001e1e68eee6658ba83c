@@ -1,6 +1,6 @@
 package model.entities;
 
-public class Rectangle extends AbstractShape {
+public class Rectangle extends Shape {
 
 		private Double width;
 		private Double heigth;
